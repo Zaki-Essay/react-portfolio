@@ -6,6 +6,7 @@ import imgFive from "./portfolioImages/5.jpg";
 import imgSix from "./portfolioImages/6.jpg";
 import contact1 from "./contact1.png";
 import AboutMeImg from "./aboutMe.jpg";
+import logo from "./logo.png"
 
 
-export { imgOne, imgTwo, imgThree, imgFour, imgFive, imgSix, contact1, AboutMeImg };
+export { imgOne, imgTwo, imgThree, imgFour, imgFive, imgSix, contact1, AboutMeImg, logo };

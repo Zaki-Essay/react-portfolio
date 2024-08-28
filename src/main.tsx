@@ -1,12 +1,12 @@
 import App from "./App.jsx";
 import "./index.css";
-import Header from "./components/Header.jsx";
+import Header from "./components/Header.tsx";
 import { Outlet, RouterProvider, createBrowserRouter } from "react-router-dom";
-import Footer from "./components/Footer.jsx";
-import About from "./pages/About.jsx";
-import Services from "./pages/Services.jsx";
-import ConatctPage from "./pages/ContactPage.jsx";
-import PortfolioPage from "./pages/PortfolioPage.jsx";
+import Footer from "./components/Footer.tsx";
+import About from "./pages/About.tsx";
+import Services from "./pages/Services.tsx";
+import ConatctPage from "./pages/ContactPage.tsx";
+import PortfolioPage from "./pages/PortfolioPage.tsx";
 import {createRoot} from "react-dom/client";
 
 const Layout = () => {
