@@ -10,7 +10,7 @@ import {
 } from "../assets/getImage";
 
 // Define the interface for items in the featuresData array
-interface FeatureItem {
+export interface FeatureItem {
   id: number;
   icon: React.ReactNode; // Type for icon; can be any valid React node
   title: string;
@@ -18,7 +18,7 @@ interface FeatureItem {
 }
 
 // Define the interface for items in the portfolioData array
-interface PortfolioItem {
+export interface PortfolioItem {
   id: number;
   title: string;
   subtitle: string;

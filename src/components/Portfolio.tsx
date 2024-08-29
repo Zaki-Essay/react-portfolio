@@ -3,17 +3,8 @@ import Container from "./Container";
 import Subtitle from "./ui/Subtitle";
 import Title from "./ui/Title";
 import PortfolioCard from "./ui/PortfolioCard";
-import { portfolioData } from "../constant/data";
+import {portfolioData, PortfolioItem} from "../constant/data";
 
-// Define the type for portfolio items
-interface PortfolioItem {
-    id: number;
-    title: string;
-    subtitle: string;
-    img: string; // Assuming img is a URL or path string
-    icon: JSX.Element;
-    link: string;
-}
 
 const Portfolio: React.FC = () => {
     return (

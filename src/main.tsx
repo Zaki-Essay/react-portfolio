@@ -1,3 +1,4 @@
+import React from "react";
 import App from "./App.jsx";
 import "./index.css";
 import Header from "./components/Header.tsx";
@@ -48,6 +49,8 @@ const router = createBrowserRouter([
     },
 ]);
 
-createRoot(document.getElementById("root")).render(
-    <RouterProvider router={router} />
+createRoot(document.getElementById("root") as HTMLElement).render(
+        <React.StrictMode>
+            <RouterProvider router={router} />
+        </React.StrictMode>
 );
