@@ -22,27 +22,27 @@ const Layout = () => {
 
 const router = createBrowserRouter([
     {
-        path: "/",
+        path: "/react-portfolio/",
         element: <Layout />,
         children: [
             {
-                path: "/",
+                path: "/react-portfolio/",
                 element: <App />,
             },
             {
-                path: "/about",
+                path: "/react-portfolio/about",
                 element: <About />,
             },
             {
-                path: "/services",
+                path: "/react-portfolio/services",
                 element: <Services />,
             },
             {
-                path: "/portfolio",
+                path: "/react-portfolio/portfolio",
                 element: <PortfolioPage />,
             },
             {
-                path: "/contact",
+                path: "/react-portfolio/contact",
                 element: <ConatctPage />,
             },
         ],

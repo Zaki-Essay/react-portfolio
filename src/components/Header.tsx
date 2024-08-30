@@ -8,12 +8,12 @@ const Header: React.FC = () => {
   const pathname = location.pathname;
 
   const navigationArray = [
-    { title: "Home", link: "/" },
-    { title: "About", link: "/about" },
-    { title: "Services", link: "/services" },
-    { title: "Portfolio", link: "/portfolio" },
-    { title: "Contact", link: "/contact" },
-    { title: "Blog", link: "/blog" },
+    { title: "Home", link: "/react-portfolio/" },
+    { title: "About", link: "/react-portfolio/about" },
+    { title: "Services", link: "/react-portfolio/services" },
+    { title: "Portfolio", link: "/react-portfolio/portfolio" },
+    { title: "Contact", link: "/react-portfolio/contact" },
+    { title: "Blog", link: "/react-portfolio/blog" },
   ];
 
   /*
