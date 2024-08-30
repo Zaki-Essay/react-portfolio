@@ -1,39 +1,19 @@
 import React from "react";
 import { Link, useLocation } from "react-router-dom";
 import Button from "./ui/Button";
-import {logo} from "../assets/getImage.ts";
+import { logo } from "../assets/getImage.ts";
+import {HOMEPAGE_URL} from "../constant/constants.ts";
+import {navigationArray} from "../constant/navigationLinks.ts";
 
 const Header: React.FC = () => {
   const location = useLocation();
   const pathname = location.pathname;
 
-  const navigationArray = [
-    { title: "Home", link: "/react-portfolio/" },
-    { title: "About", link: "/react-portfolio/about" },
-    { title: "Services", link: "/react-portfolio/services" },
-    { title: "Portfolio", link: "/react-portfolio/portfolio" },
-    { title: "Contact", link: "/react-portfolio/contact" },
-  ];
-
-  /*
-  * TODO....$
-  *
-  * interface NavItem {
-  title: string;
-  link: string;
-}
-
-const navigationArray: NavItem[] = [
-  // ... navigation items
-];
-  *
-  * */
-
   return (
       <header className="w-full h-20 bg-[#16181C]/90 backdrop-blur-2xl sticky top-0 z-50">
         <div className="h-full max-w-screen-xl mx-auto flex items-center justify-between">
           <div>
-            <Link to="/react-portfolio/">
+            <Link to={HOMEPAGE_URL}>
               <img src={logo as string} alt="logo" className="w-24" />
             </Link>
           </div>

@@ -16,10 +16,10 @@ const Hero: React.FC = () => {
         <Container className="py-20">
           <div className="w-1/2 flex flex-col gap-y-5">
             <p className="text-base uppercase text-lightText">
-              CONSULTANT EYE SERGEON
+              CONSULTANT
             </p>
             <h2 className="text-7xl font-bold text-white">
-              Hi, I’m <span className="text-designColor">William Lina</span>
+              Hi, I’m <span className="text-designColor">Zakariae ESSAIYDY</span>
             </h2>
             <h2 className="text-4xl font-bold text-white">
               a{" "}

@@ -31,7 +31,7 @@ const ContactMe: React.FC = () => {
           <div className="w-1/3 bg-stone-950/50 p-10 rounded-lg group">
             <div className="overflow-hidden rounded-lg">
               <img
-                  src={contact1}
+                  src={contact1 as string}
                   alt="contact image"
                   className="rounded-md group-hover:scale-110 duration-500"
               />
@@ -44,10 +44,10 @@ const ContactMe: React.FC = () => {
                 to my account.
               </p>
               <p className="text-base">
-                Phone: <span className="text-white">+88010000000000</span>
+                Phone: <span className="text-white">+212625806559</span>
               </p>
               <p className="text-base">
-                Email: <span className="text-white">mern@people&tech.com</span>
+                Email: <span className="text-white">zakaressaiydy@gmail.Com</span>
               </p>
               <p className="uppercase">Find with me</p>
             </div>
