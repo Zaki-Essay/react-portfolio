@@ -13,7 +13,6 @@ const Header: React.FC = () => {
     { title: "Services", link: "/react-portfolio/services" },
     { title: "Portfolio", link: "/react-portfolio/portfolio" },
     { title: "Contact", link: "/react-portfolio/contact" },
-    { title: "Blog", link: "/react-portfolio/blog" },
   ];
 
   /*
