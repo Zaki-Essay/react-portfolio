@@ -14,7 +14,7 @@ export default {
         test: "linear-gradient(145deg, #1e2024, #23272b)",
       },
       backgroundImage: {
-        "hero-image": "url('./public/banner.jpg')",
+        "hero-image": "url('./src/assets/banner.jpg')",
       },
     },
   },
