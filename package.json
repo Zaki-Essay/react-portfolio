@@ -1,5 +1,6 @@
 {
   "name": "portfolio",
+  "homepage": "https://erickks.github.io/react-portfolio/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
