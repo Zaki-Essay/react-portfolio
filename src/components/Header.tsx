@@ -34,7 +34,7 @@ const navigationArray: NavItem[] = [
       <header className="w-full h-20 bg-[#16181C]/90 backdrop-blur-2xl sticky top-0 z-50">
         <div className="h-full max-w-screen-xl mx-auto flex items-center justify-between">
           <div>
-            <Link to="/">
+            <Link to="/react-portfolio/">
               <img src={logo as string} alt="logo" className="w-24" />
             </Link>
           </div>

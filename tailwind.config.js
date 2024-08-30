@@ -8,9 +8,9 @@ export default {
       },
       colors: {
         primaryColor: "#16181C",
-        lightText: "#878e99",
+        lightText: "rgba(255,255,255,0.91)",
         designColor: "#0199ff",
-        titleColor: "#c4cfde",
+        titleColor: "#ffffff",
         test: "linear-gradient(145deg, #1e2024, #23272b)",
       },
       backgroundImage: {

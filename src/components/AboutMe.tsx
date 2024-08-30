@@ -9,7 +9,7 @@ const AboutMe: React.FC = () => {
   return (
       <Container className="flex justify-between">
         {/* Left part */}
-        <div className="w-[35%] h-[330px] bg-[#212428] p-10 rounded-lg shadow-md shadow-black overflow-hidden group">
+        <div className="w-[35%] h-[330px] bg-[#212428] p-10 mt-14 rounded-sm shadow-md shadow-gray-500 overflow-hidden group hover:shadow-2xl">
           <div className="h-[500px] overflow-hidden rounded-md">
             <img
                 src={AboutMeImg as string}
@@ -36,7 +36,7 @@ const AboutMe: React.FC = () => {
             more. She is committed to working with you to develop personalized
             treatment plans that suit your unique needs.
           </p>
-          <Button title="Learn more" className="w-40 h-14" />
+          <Button title="Learn more" className="w-40 mt-8 h-14" />
         </div>
       </Container>
   );
