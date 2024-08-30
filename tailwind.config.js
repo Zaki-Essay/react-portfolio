@@ -9,7 +9,7 @@ export default {
       colors: {
         primaryColor: "#16181C",
         lightText: "#878e99",
-        designColor: "#ff014f",
+        designColor: "#0199ff",
         titleColor: "#c4cfde",
         test: "linear-gradient(145deg, #1e2024, #23272b)",
       },

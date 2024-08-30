@@ -9,12 +9,12 @@ const AboutMe: React.FC = () => {
   return (
       <Container className="flex justify-between">
         {/* Left part */}
-        <div className="w-[35%] bg-[#212428] p-10 rounded-lg shadow-md shadow-black overflow-hidden group">
+        <div className="w-[35%] h-[330px] bg-[#212428] p-10 rounded-lg shadow-md shadow-black overflow-hidden group">
           <div className="h-[500px] overflow-hidden rounded-md">
             <img
-                src={AboutMeImg}
+                src={AboutMeImg as string}
                 alt="aboutMeImage"
-                className="h-full group-hover:scale-110 duration-500 rounded-md"
+                className=" group-hover:scale-110 duration-500 rounded-md"
             />
           </div>
         </div>
