@@ -78,6 +78,8 @@ npm run dev
 
 ### Summary:
 
+
+
 - **Installation Instructions**: The README provides clear steps to set up and run the project locally.
 - **Deployment**: Automated deployment is configured with GitHub Actions, ensuring that any changes pushed to the `main` branch are built and deployed to GitHub Pages.
 - **Dependencies**: The README lists both main and dev dependencies for easy reference.
