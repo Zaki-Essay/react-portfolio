@@ -7,6 +7,7 @@ import Portfolio from "./components/Portfolio";
 function App() {
     return (
         <div className="relative bg-primaryColor text-lightText">
+
             <Hero />
             <AboutMe />
             <Features />
